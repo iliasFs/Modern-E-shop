@@ -44,7 +44,9 @@ const Navbar = () => {
         <Box
           onClick={() => navigate("/")}
           sx={{ "&:hover": { cursor: "pointer" } }}
-          color={shades.secondary[500]}
+          color={'black'}
+          fontWeight = {'bold'}
+          letterSpacing = {'1px'}
         >
           ELEGANCE
         </Box>
